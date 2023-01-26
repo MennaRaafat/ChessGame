@@ -1,0 +1,101 @@
+
+body{
+    background-color: rgb(66, 66, 66);
+    color: rgb(66, 66, 66);
+    font-family: cursive;
+
+}
+
+#chessboard {
+    width:41vw;
+    height: 85vh;
+    border: 29px solid rgb(121, 110, 126);
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+#chessboard p{
+    font-size: 1rem;
+    margin-left: -70%;
+}
+
+#chessboard h6{
+    font-size: 1rem;
+    margin-top: 70%;
+}
+
+#chessboard #a1 h6{
+    margin-top: 28%;
+}
+
+.black {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: #999;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+.white {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+
+
+
+
+.right-board{
+    float: right;
+    background-color: rgb(121, 110, 126);
+    opacity: 0.9;
+    width: 30vw;
+    height: 75vh;
+    margin-top: -41%;
+    margin-right: 5%;
+    border-radius: 5%;
+}
+
+.right-board #title{
+    text-align: center;
+    color:white;
+    font-family: cursive;   
+    margin-top: 6%;
+    font-size: 2rem;
+}
+
+.right-board #countdown{
+margin-right: 10%;
+float: right;
+margin-top: 15%;
+color:white;
+font-family: cursive;
+font-weight: 100px;
+}
+
+#steps{
+    margin-top: 15%;
+    margin-left: 6%;
+    float: left;    
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.right-board button{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80%;
+    border: 1px solid #fff;    
+    padding: 3%;
+    border-radius: 15px;
+    font-family: cursive;
+
+    }
+
